@@ -1,5 +1,5 @@
 
-import BackgroundImg from '../../assets/design1.png';
+import BackgroundImg from '../../../public/assets/design1.png';
 
   const NavBarHeader = {
     backgroundImage: `url(${BackgroundImg})`,

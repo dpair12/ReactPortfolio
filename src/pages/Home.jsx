@@ -5,7 +5,7 @@ function Home() {
   return (
     <div className='pagebackground' style={{ paddingTop: "20px" }}>
       <div className='circular--portrait'>
-        <img src="../../public/DPHeadshot.jpg" alt="Photo of De'Sean Pair Wearing Navy Jacket" />
+        <img src="../../public/assets/DPHeadshot.jpg" alt="Photo of De'Sean Pair Wearing Navy Jacket" />
       </div>
       <div className='formatpage'>
         <h1 style={{ paddingTop: "20px", textAlign: "center" }}>About Me</h1>

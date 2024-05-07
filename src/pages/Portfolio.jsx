@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 import Card from 'react-bootstrap/Card';
 import Container from 'react-bootstrap/Container';
-import employee from '../../public/employee.jpg';
-import readme from '../../public/readme.jpg';
-import schedule from '../../public/schedule.jpg';
-import superhero from '../../public/superhero.jpg';
-import DPHeadshot from '../../public/headshot.jpg';
-import weather from '../../public/weather.jpg';
-import github from '../../public/github.jpg';
+import employee from '../../public/assets/employee.jpg';
+import readme from '../../public/assets/readme.jpg';
+import schedule from '../../public/assets/schedule.jpg';
+import superhero from '../../public/assets/superhero.jpg';
+import DPHeadshot from '../../public/assets/headshot.jpg';
+import weather from '../../public/assets/weather.jpg';
+import github from '../../public/assets/github.jpg';
 
 const projectLinks = [
   { title: 'Weather App', img: weather, repo: 'https://github.com/dpair12/Weather-App' },

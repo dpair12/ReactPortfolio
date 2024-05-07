@@ -1,4 +1,4 @@
-import DPResume from '../../public/DPResume.pdf'
+import DPResume from '../../public/assets/DPResume.pdf'
 
 function Resume () {
 

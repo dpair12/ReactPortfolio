@@ -1,6 +1,6 @@
-import GitHubLogo from '../../../public/GitHubLogo.png';
-import LinkedInLogo from '../../../public/LinkedInLogo.svg';
-import EmailIcon from '../../../public/EmailIcon.svg';
+import GitHubLogo from '../../../public/assets/GitHubLogo.png';
+import LinkedInLogo from '../../../public/assets/LinkedInLogo.svg';
+import EmailIcon from '../../../public/assets/EmailIcon.svg';
 
 function SocialIcons() {
   return (
