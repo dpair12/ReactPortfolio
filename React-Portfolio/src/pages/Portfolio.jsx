@@ -1,3 +1,23 @@
+import React, { useState } from 'react';
+import Card from 'react-bootstrap/Card';
+import Container from 'react-bootstrap/Container';
+import employee from '../../public/employee.jpg';
+import readme from '../../public/readme.jpg';
+import schedule from '../../public/schedule.jpg';
+import superhero from '../../public/superhero.jpg';
+import DPHeadshot from '../../public/headshot.jpg';
+import weather from '../../public/weather.jpg';
+import github from '../../public/github.jpg';
+
+const projectLinks = [
+  { title: 'Weather App', img: weather, repo: 'https://github.com/dpair12/Weather-App' },
+  { title: 'ReadMeGenerator', img: readme, repo: 'https://github.com/dpair12/ReadMe-Generator' },
+  { title: 'Employee Tracker', img: employee, repo: 'https://github.com/dpair12/Employee-Tracker' },
+  { title: 'Portfolio-V1', img: DPHeadshot, repo: 'https://github.com/dpair12/De-Sean-Pair-ePortfolio-Project' },
+  { title: 'SuperHero Movie Finder', img: superhero, repo: 'https://github.com/msheliga1/pj1MultiAPISuperHeroMovies' },
+  { title: 'Schedule Maker', img: schedule, repo: 'https://github.com/dpair12/Schedule-Manager' }
+];
+
 function Portfolio() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
   
@@ -19,11 +39,11 @@ function Portfolio() {
                     <p style={{ color: 'black', textAlign: 'center', fontWeight: 'bold', fontSize: '1.5rem' }}>View On Github</p>
                   </div>
                 </a>
-                <a href={project.app} style={{ textDecoration: "none" }}>
+              
                   <Card.Body>
                     <Card.Title style={{ textAlign: "center", color: "black" }}>{project.title}</Card.Title>
                   </Card.Body>
-                </a>
+      
               </Card>
             ))}
           </Container>
