@@ -17,7 +17,7 @@ This is a portfolio application that I built from the ground up using react, rea
 
 ## Application-Demo
 
-not ready yet
+https://www.youtube.com/watch?v=GO-5wz8IHO8
 
 ## Installation
 
